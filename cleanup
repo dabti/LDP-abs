@@ -32,7 +32,7 @@ else
 fi
 
 
-cd LOG_DIR
+cd $LOG_DIR
 if [ `pwd` != "$LOG_DIR" ] # or if [ "$PWD" != "$LOG_DIR" ]
                            # Not in /var/log?
 then
